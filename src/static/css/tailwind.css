@@ -4,17 +4,34 @@
 
 /*Your Custom CSS Goes here*/
 
-h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+body {
+  @apply bg-neutral-50;
 }
 
-h3 {
-  @apply text-2xl font-bold mb-3;
+main {
+  @apply max-w-4xl mx-auto px-6 py-24 sm:py-32 md:py-40;
 }
 
-/* Syntax Highlighting*/
+#logo {
+  @apply w-24;
+}
 
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
-  @apply bg-gray-800;
+article {
+  @apply antialiased prose prose-xl prose-neutral font-mono;
+}
+
+strong {
+  @apply text-orange-500;
+}
+
+.founders {
+  @apply flex justify-around;
+}
+
+.founders img {
+  @apply w-[200px] rounded-full;
+}
+
+footer {
+  @apply flex flex-col prose prose-neutral opacity-50 mt-24;
 }
