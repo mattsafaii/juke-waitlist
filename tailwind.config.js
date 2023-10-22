@@ -6,6 +6,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      fontFamily: {
+        worksans: ["Work Sans", "sans-serif"],
+      },
     },
   },
   variants: {},

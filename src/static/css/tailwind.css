@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
 
 /*Your Custom CSS Goes here*/
-
 body {
-  @apply bg-neutral-50;
+  @apply bg-neutral-50 font-bold font-sans;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 }
 
 article {
-  @apply antialiased prose prose-xl prose-neutral font-mono;
+  @apply antialiased prose prose-xl prose-neutral;
 }
 
 strong {
